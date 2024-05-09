@@ -1,0 +1,33 @@
+
+
+.Signup_otr,
+.SignIn_otr{
+    .signup_heading,
+    .signin_heading{
+        font-size: 24px;
+        line-height: 36px;
+        font-weight: 400;
+        color: #000000;
+    }
+    .signup_desc,
+    .signin_desc{
+        font-size: 16px;
+        line-height: 22px;
+        font-weight: 400;
+        margin: 12px 0 32px 0;
+        color: hsla(0, 0%, 0%, 0.65);
+    }
+    .form_otr{
+        display: flex;
+        flex-direction: column;
+        gap: 24px;
+    }
+    .action_otr{
+        display: flex;
+        align-items: center;
+        gap: 24px;
+        button{
+            width: calc(50% - 12px);
+        }
+    }
+}

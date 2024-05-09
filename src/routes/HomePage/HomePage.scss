@@ -1,0 +1,10 @@
+.HomePage_main {
+    margin: 50px 0;
+    .container_fluid {
+        .row_custom {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 24px;
+        }
+    }
+}
